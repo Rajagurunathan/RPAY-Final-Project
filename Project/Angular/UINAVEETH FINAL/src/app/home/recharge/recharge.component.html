@@ -1,0 +1,231 @@
+
+<div class="container">
+    <div class="blog-section">
+
+   
+    <div class="container blog-container">
+    
+        <div class="blog-posts-section">
+            <div class="col-lg-12 col-md-10 col-xs-10 blog-post-card-container">
+
+                
+
+                <div class="blog-post-card">
+                    <div class="pricing-title">
+                        <h2> Let's Recharge  </h2>
+                        <p>Get RPay Offers And Cashback On Your Online Mobile Recharge</p>
+                    </div>
+                    <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+                        <br><br>
+                       
+                            <input type="text" class="form-control" name="PhoneNumber" placeholder="Enter Number"  ngModel>
+
+                      
+
+                        
+                        <br>
+                            <select class="form-control" required (change)="selectChangeHandler($event)" name="Operator" placeholder="Select Operator" ngModel>
+                                  <option value disabled > Select Operator</option>
+                                 
+                                  <option value="AT">Airtel</option>
+                                  <option value="BS">Bsnl</option>
+                                  <option value="JO">Jio</option>
+                                  <option value="VF">Vodafone</option>
+                            </select>
+
+                            <br>
+
+             
+                            <p><span>You selected: </span><b>{{selectedDay}}</b></p>
+                        
+                            <input type="number" value={{enablerc}} class="form-control" name="Amount" (input)="onUpdatercbutton($event)" ngModel>
+                            
+                         <br>
+                        <button type="submit" [disabled]="!allowrecharge" class="btn btn-primary btn-block">Submit</button>
+                            <br> <h4 style="color: red;">{{lowbalance}}</h4>
+                        <a routerLink="/mywallet" *ngIf="!isHidden"> Click here to add Money to wallet </a> 
+                    </form>
+
+                    <button mat-button color="warn"><h1>{{rcstatus.status}}</h1></button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    function showTableData(amt) {
+        document.getElementById('info').value = "";
+
+        var myTab = document.getElementsByClassName('plans');
+		
+        // LOOP THROUGH EACH ROW OF THE TABLE AFTER HEADER.
+        //for (i = 1; i < myTab.rows.length; i++) {
+
+            // GET THE CELLS COLLECTION OF THE CURRENT ROW.
+            var objCells = myTab.rows.item(this[1]).cells;
+
+            // LOOP THROUGH EACH CELL OF THE CURENT ROW TO READ CELL VALUES.
+           
+                info.value = amt; //info.innerHTML + ' ' + objCells.item(2).innerHTML;
+   
+          //  info.innerHTML = info.innerHTML + '<br />';     // ADD A BREAK (TAG).
+       // }
+    }
+</script>
+
+  <!-- Airtel Table -->
+  <div *ngIf="selectedDay == 'AT'">
+  
+    
+  <table id="example" class=" center table-hover  plans">
+        <thead class="back">
+            <tr>
+                  <th>TYPE</th>
+                  <th>DESCRIPTION</th>
+                  
+                  <th>TALKTIME</th>
+                  <th>VALIDITY</th>
+                  <th>OPERATOR</th>
+                  <th>CIRCLE</th>
+                  <th>AMOUNT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let air of lstAirtelPlans.plandetail">
+                  <th>{{air.category}}</th>
+                  <th>{{air.description}}</th> 
+                  
+                  <th>{{air.talktime}}</th> 
+                  <th>{{air.validity}}</th> 
+                  <th>{{air.operator_name}}</th> 
+                  <th>{{air.circle_name}}</th> 
+                  <th>
+                    <button class="btn-grad"  value={{air.amount}} (click)="showTableData($event)">
+                  {{air.amount}}
+                  </button></th>
+               </tr>
+        </tbody>
+            
+  </table>
+
+  </div> 
+ 
+  
+  <!-- BSNL TABLE -->
+  
+  <div *ngIf="selectedDay == 'BS'">
+    <table id="example" class=" center table-hover  plans">
+        <thead class="back">
+                <tr>
+                      <th>TYPE</th>
+                      <th>DESCRIPTION</th>
+                     
+                      <th>TALKTIME</th>
+                      <th>VALIDITY</th>
+                      <th>OPERATOR</th>
+                      <th>CIRCLE</th>
+                      <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let air of lstBsnlPlans.plandetail">
+                      <th>{{air.category}}</th>
+                      <th>{{air.description}}</th> 
+                      
+                      <th>{{air.talktime}}</th> 
+                      <th>{{air.validity}}</th> 
+                      <th>{{air.operator_name}}</th> 
+                      <th>{{air.circle_name}}</th> 
+                      <th>
+                        <button class="btn-grad"  value={{air.amount}} (click)="showTableData($event)">
+                      {{air.amount}}
+                      </button></th> 
+                   </tr>
+            </tbody>
+      
+      </table>
+     
+      </div> 
+ 
+  
+  <!-- BSNL TABLE -->
+  
+  <div *ngIf="selectedDay == 'JO'">
+  
+  
+    <table id="example" class=" center table-hover  plans">
+        <thead class="back">
+                <tr>
+                      <th>TYPE</th>
+                      <th>DESCRIPTION</th>
+                     
+                      <th>TALKTIME</th>
+                      <th>VALIDITY</th>
+                      <th>OPERATOR</th>
+                      <th>CIRCLE</th>
+                      <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let air of lstJioPlans.plandetail">
+                      <th>{{air.category}}</th>
+                      <th>{{air.description}}</th> 
+                      
+                      <th>{{air.talktime}}</th> 
+                      <th>{{air.validity}}</th> 
+                      <th>{{air.operator_name}}</th> 
+                      <th>{{air.circle_name}}</th>
+                      <th>
+                        <button class="btn-grad" value={{air.amount}} (click)="showTableData($event)">
+                      {{air.amount}}
+                      </button></th>  
+                   </tr>
+            </tbody>
+      
+      </table>
+   
+      </div> 
+
+  
+  <!-- VI TABLE -->
+  
+  <div *ngIf="selectedDay == 'VF'">
+  
+    <table id="example" class=" center table-hover  plans">
+        <thead class="back">
+                <tr>
+                      <th>TYPE</th>
+                      <th>DESCRIPTION</th>
+                      
+                      <th>TALKTIME</th>
+                      <th>VALIDITY</th>
+                      <th>OPERATOR</th>
+                      <th>CIRCLE</th>
+                      <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let air of lstVodafonePlans.plandetail">
+                      <th>{{air.category}}</th>
+                      <th>{{air.description}}</th> 
+                      
+                      <th>{{air.talktime}}</th> 
+                      <th>{{air.validity}}</th> 
+                      <th>{{air.operator_name}}</th> 
+                      <th>{{air.circle_name}}</th>  
+                      <th>
+                        <button value={{air.amount}} (click)="showTableData($event)">
+                      {{air.amount}}
+                      </button></th>
+                   </tr>
+            </tbody>
+      
+      </table>
+     
+      </div> 
+ 
+  <mat-divider></mat-divider>
+  <router-outlet></router-outlet>
+  

@@ -1,0 +1,22 @@
+Recharge(Prepaid) api call:
+
+Request:
+https://joloapi.com/api/v1/recharge.php?userid=SARAVANA07&key=269628673204646&operator=BS&service=9486122755&amount=10&orderid=109284
+
+Response:
+   
+{​​​​​"status":"SUCCESS","error":"0","txid":"N202011039268556332","operator":"BS","service":"9486122755","amount":"10","orderid":"109284","operatorid":"TEMP2020110320182","balance":"68.2","margin":"0.08","time":"November 03 2020 11:49:34 AM","duration":"0.008"}​​​​​
+
+Parameters:
+
+userid,
+key,
+operator = BS,AT,JO,VF
+service = our phone number
+amount,
+order id=our clientid (randomly generated)
+
+
+About:
+
+Recharge a mobile number for specific operator & plan.

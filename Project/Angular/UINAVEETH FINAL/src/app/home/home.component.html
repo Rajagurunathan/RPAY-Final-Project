@@ -1,0 +1,208 @@
+ <link href="https://demo.codefest.co.uk/codelander/assets/css/accordian.css" rel="stylesheet">
+	<link href="https://demo.codefest.co.uk/codelander/assets/css/style.css" rel="stylesheet">
+    <link href="https://demo.codefest.co.uk/codelander/assets/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://demo.codefest.co.uk/codelander/assets/css/owl/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://demo.codefest.co.uk/codelander/assets/css/owl/owl.theme.default.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&amp;display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kZW1vLmNvZGVmZXN0LmNvLnVrL2NvZGVsYW5kZXIv">
+    
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="/src/assets/js/smoothscroll.js"></script>
+    <script>
+    $("#navbarNav").on("click", "a", function () {
+       $(".navbar-toggle").click();
+       //or $("#nav").slideToggle();
+ });
+    </script>
+<script type="text/javascript">
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-96875843-3', 'auto');
+      ga('send', 'pageview');
+</script>
+
+
+
+
+ <!-- <nav class="navbar navbar-dark bg-dark">
+   <a class="navbar-brand text-white">Rpay</a>
+  
+</nav>  -->
+<div class="container-fluid">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-header navbar-mobile">
+  <div class=" container col-sm-8 col-md-8 col-lg-12 col">
+    <!-- LOGO -->
+    <div class="navbar-brand">
+    <a class="navbar-brand-logo">
+      <img src="/assets/img/apilogo.png" width="155px">
+    </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon bg-primary"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around" *ngIf="userDetails" id="navbarNav">
+      <ul class="navbar-nav menu-navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link">
+            <p class="nav-link-menu">{{userDetails.fullName}}</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            <p class="nav-link-menu">{{userDetails.email}}</p>
+          </a>
+        </li>
+        <li class="nav-item">
+         <button class="nav-link learn-more-btn" (click)="onLogout()">Logout</button> 
+       </li>
+      </ul>
+     
+      <!-- <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link-menu" >Signin</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link-menu" >Signup</a>
+        </li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- <div class="card m-5" style="width:18rem" *ngIf="userDetails">
+  <ul class="list-group">
+    <li class="list-group-item"><strong>Username : </strong>{{userDetails.userName}}</li>
+    <li class="list-group-item"><strong>FullName : </strong>{{userDetails.fullName}}</li>
+    <li class="list-group-item"><strong>Email : </strong>{{userDetails.email}}</li>
+  </ul>
+</div> -->
+<br>
+<div>
+
+
+
+
+
+
+  <mat-divider></mat-divider>
+<div class="container col-xl-12 col-lg-12 col-sm-12 col-sm-12">
+  <mat-tab-group mat-align-tabs="center" dynamicHeight>
+    <mat-tab label="Home"> 
+      <app-user-home></app-user-home> 
+   </mat-tab>
+    <mat-tab label="Recharge"> 
+      <app-recharge></app-recharge><br><br><br>
+    </mat-tab>
+    <mat-tab label="Operator Finder ">
+      <br> <app-operatorfinder> </app-operatorfinder> <br> 
+       </mat-tab>
+    <mat-tab label=" My Wallet "> 
+      <br> <app-mywallet> </app-mywallet> <br> 
+ </mat-tab>
+
+ <mat-tab label="My Profile"> 
+  <br> <app-userupdate> </app-userupdate> <br> 
+</mat-tab>
+    <!-- <mat-tab label="My Profile"><br> <app-userupdate> </app-userupdate> <br> </mat-tab> -->
+  </mat-tab-group>
+</div> 
+<mat-divider></mat-divider>
+
+<div class="footer-section">
+  <div class="footer-section-bg-graphics">
+    <img src="https://demo.codefest.co.uk/codelander/assets/images/footer-section-bg.png">
+  </div>
+          <!-- Footer Column 1 -->
+  <div class="container footer-container">
+    <div class="col-lg-3 col-md-6 footer-logo">
+      <img src="/assets/img/apilogo.png" width="155px">
+      <p class="footer-susection-text">The simplest and fastest way to do a online recharge</p>
+    </div>
+    <div class="col-lg-3 col-md-6 footer-subsection">
+      <div class="footer-subsection-2-1">
+        <h3 class="footer-subsection-title">About</h3>
+        <p class="footer-subsection-text">RPay is India’s largest mobile Recharge platform. We help you to recharge your mobile at zero cost using our RPay Wallet.</p>
+      </div>
+    </div>
+              <!-- Footer Column 2 -->
+    <div class="col-lg-3 col-md-6 footer-subsection">
+      <h3 class="footer-subsection-title">Contact Us</h3>
+      <ul class="footer-subsection-list">
+        <li>RSN private ltd<br>Kovai</li>
+        <li>8256345845</li>
+        <li>rsnltd@gmail.com</li>
+      </ul>	
+    </div>
+              <!-- Footer Column 3 -->
+    <div class="col-lg-3 col-md-6 footer-subsection">
+      <div class="footer-subsection-2-2">
+        <h3 class="footer-subsection-title">Socials</h3>
+        <div class="footer-social-media-icons-section">
+          <a  class="footer-social-media-icon"><i class="fa fa-twitter"></i></a> 
+          <a  class="footer-social-media-icon"><i class="fa fa-instagram"></i></a>
+          <a  class="footer-social-media-icon"><i class="fa fa-facebook"></i></a>
+          <a  class="footer-social-media-icon"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+          <!-- FOOTER CREDITS -->
+  <div class="container footer-credits">
+    <p>© 2020 <a target="_blank" title="Codefest">RPay</a>™. All Rights Reserved.</p>
+  </div>
+</div>
+
+</div>
+<!-- FOOTER SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="/src/assets/js/owl/owl.carousel.js"></script>
+<script src="/src/assets/js/accordian.js"></script>
+  <!-- Header scroll -->
+ 
+
+
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items:4,
+        loop:true,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+      });
+    });
+    </script>

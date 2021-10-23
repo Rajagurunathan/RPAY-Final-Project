@@ -1,0 +1,18 @@
+Status Check(Transaction) api call:
+
+Request:
+https://joloapi.com/api/v1/rechargestatus_client.php?userid=SARAVANA07&key=269628673204646&servicetype=1&txn=109283
+
+Response:
+{"status":"SUCCESS","error":"0","txid":"N202011031116077232","clientid":"109283","txnstatus":"SUCCESS","operator_name":"AIRTEL","service":"8248813372","amount":"10","operatorid":"781545534","margin":"0.05","txntime":"November 03 2020 12:32:34 AM","time":"November 03 2020 11:46:16 AM","duration":"0.01"}
+
+Parameters:
+
+userid,
+key,
+servicetype = 1(prepaid)
+txn = our clientid (randomly generated)
+
+About:
+
+check our transaction status using our orderid in Jolo.

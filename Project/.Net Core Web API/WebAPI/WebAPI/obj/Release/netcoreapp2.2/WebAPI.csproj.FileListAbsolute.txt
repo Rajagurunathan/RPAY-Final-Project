@@ -1,0 +1,51 @@
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\serviceDependencies.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\serviceDependencies.local.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.deps.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.Views.dll
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.genruntimeconfig.cache
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CopyComplete
+C:\Users\sarav\Desktop\Kovai Final Project\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\serviceDependencies.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\Properties\serviceDependencies.local.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.deps.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.Views.dll
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\bin\Release\netcoreapp2.2\WebAPI.Views.pdb
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.TagHelpers.input.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.TagHelpers.output.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorCoreGenerate.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\Razor\Views\WalletMVC\Razorpay.cshtml.g.cs
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cs
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.Views.pdb
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.dll
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.pdb
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.genruntimeconfig.cache
+C:\Users\sarav\Desktop\Rpay Demo\WebAPI\WebAPI\obj\Release\netcoreapp2.2\WebAPI.csproj.CopyComplete

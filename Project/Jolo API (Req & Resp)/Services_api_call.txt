@@ -1,0 +1,17 @@
+SERVICES api call:
+
+Request:
+https://joloapi.com/api/v1/myservices.php?userid=1702091&key=265863867844185
+
+Response:
+{"status":"SUCCESS","error":"0","PREPAID":"ACTIVE","DTH":"ACTIVE","POSTPAID":"NOT ACTIVE","LANDLINE":"NOT ACTIVE","ELECTRICITY":"NOT ACTIVE","GAS":"NOT ACTIVE","WATER":"NOT ACTIVE","time":"November 03 2020 11:20:32 AM","duration":"0"}
+
+Parameters:
+
+Userid
+key
+
+
+About:
+
+Just show the subscribed services in Jolo.

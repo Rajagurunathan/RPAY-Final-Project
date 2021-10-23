@@ -1,0 +1,28 @@
+.back{
+    background-color: #05e8ba;
+background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+
+}
+
+#example{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+th, td {
+    padding: 30px;
+  }
+
+  tr:hover {background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);}
+table{
+    width: 80%;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+  }
+
+

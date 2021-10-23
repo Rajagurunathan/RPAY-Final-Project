@@ -1,0 +1,81 @@
+.blog-post-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 55px 40px;
+    box-shadow: 0 3px 17px rgba(0,0,0,0.15);
+        background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);   
+     /* background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);  */
+
+/* background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); */
+
+
+   
+    
+
+}
+.blog-post-card:hover{
+    box-shadow: 0 3px 17px rgba(0,0,0,0.15);
+    cursor: pointer;
+    background-color: rgb(247, 238, 238);
+}
+
+.back{
+    background-color: #05e8ba;
+background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+
+}
+
+#example{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+  }
+
+  tr:hover {background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);}
+table{
+    width: 80%;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+  }
+
+
+  
+  
+  .btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)}
+  .btn-grad {
+     margin: 7px;
+     padding: 15px 35px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 7px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  
+
+

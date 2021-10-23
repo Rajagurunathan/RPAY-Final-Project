@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+        "target": "http://rpay2point0.mrwhitehost.in/';",
+        "secure": false,
+        "logLevel": "debug",
+        "ChangeOrigin":true
+    }
+}

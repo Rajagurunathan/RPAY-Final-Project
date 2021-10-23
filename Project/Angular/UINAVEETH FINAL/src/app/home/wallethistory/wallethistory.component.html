@@ -1,0 +1,30 @@
+
+
+<br>
+ <div class="center">
+      <div class="pricing-title">
+            <h2> Wallet Credit History  </h2>
+      </div>
+      <br><br>
+    <table id="example" class="center table table-hover  " >
+          <thead class="back">
+              <tr>
+                    <th>TRANSACTION ID</th>
+                    <th>TRANSACTION TIME</th>
+                    <th>AMOUNT</th>
+                    <th>STATUS</th>
+                    
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let obj of lsttransaction">
+                    <td>{{obj.transactionid}}</td>
+                    <td>{{obj.transaction_time}}</td> 
+                    <td style="color:green">{{obj.amount}}</td>
+                    <td>{{obj.status}}</td> 
+                 </tr>
+          </tbody> 
+    </table>
+
+
+</div>

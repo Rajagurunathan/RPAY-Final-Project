@@ -1,0 +1,31 @@
+Plan Finderapi call:
+
+Request:
+
+TN- JIO(JO)
+
+https://joloapi.com/api/v1/operatorplanfinder.php?userid=1702091&key=265863867844185&operator_code=JO&circle_code=TN
+
+TN- AIRTEL(AT)
+
+https://joloapi.com/api/v1/operatorplanfinder.php?userid=1702091&key=265863867844185&operator_code=AT&circle_code=TN
+
+TN- VODAFONE(VF)
+
+https://joloapi.com/api/v1/operatorplanfinder.php?userid=1702091&key=265863867844185&operator_code=VF&circle_code=TN
+
+TN- BSNL(BS)
+
+https://joloapi.com/api/v1/operatorplanfinder.php?userid=1702091&key=265863867844185&operator_code=BS&circle_code=TN
+
+Parameters:
+
+userid,
+key,
+operator_code = AT,BS,VF,JO,
+circle_code = TN
+
+
+About:
+
+Plan finder using mobile number.

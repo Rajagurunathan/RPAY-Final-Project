@@ -1,0 +1,141 @@
+
+
+<!-- <form #updatePost="ngForm" (ngSubmit)="onSubmit(updatePost.value)">
+
+    <span>Full Name</span><input type="text" name="first" ngModel ><br>
+    <span>Email ID</span><input type="text" name="second" ngModel  ><br>
+    <span>Mobile Number</span><input type="text" name="third" ngModel ><br>
+   
+    <br><br>
+    <button type="submit">Update Profile</button>
+</form>
+           -->
+           <!-- <div class="container-small col-lg-8 col-sm-6 col-md-6 col-xl-8 d-flex justify-content-center">
+           <mat-card>
+            <mat-card-header>
+              <mat-card-title>
+               My Profile 
+              </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+            <input class="form-control"  [(ngModel)]="name"   pattern="[a-zA-Z ]*"><br><br>
+            <input class="form-control"   [(ngModel)]="email"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"><br><br>
+            <input class="form-control"  [(ngModel)]="phonenumber" pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$"><br><br><br><br>
+        
+            </mat-card-content>
+            <mat-card-actions>
+                <button class="btn btn-danger btn-block btn-lg" (click)="update()">Update</button> 
+            </mat-card-actions>
+          </mat-card>
+            </div> -->
+
+
+            <base target="_parent">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"><link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/css/bootstrap.min.css"><link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/css/mdb.min.css"><link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-addons-4.19.1.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/mdb-plugins-gathered.min.css"><style>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </style><style type="text/css">/* Chart.js */
+            @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><!--Grid row-->
+            <div class="row">
+            
+              <!--Grid column-->
+              
+            
+                    
+            
+                    <!-- Data -->
+                    
+              <!--Grid column-->
+            
+            
+            
+          <div class="col d-flex justify-content-center">
+           
+              <!--Grid column-->
+              <div style="text-align: center;"  class="col-md-6 mb-4">
+            
+                <!-- Card -->
+                <div class="card gradient-card">
+            
+                    <div class="card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+            
+                      <!-- Content -->
+                      <a href="#!">
+                        <div class="text-white d-flex h-100 mask aqua-gradient-rgba">
+                          <div class="first-content align-self-center p-3">
+                            <br><br>
+                            <h4 class="justify-content-between" style="font-size: 40px;" [(ngModel)]="name"> Welcome! {{name}} </h4>
+                            <br><br>
+                            <p class="text-monospace d-flex align-items-center"  style="font-size: 30px; ">Click here</p>
+                          </div>
+                          <div class="second-content  align-self-center mx-auto text-center">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                          </div>
+                        </div>
+                      </a>
+            
+                    </div>
+            
+                    <!-- Data -->
+                    
+            
+                    <!-- Content -->
+                    <div class="card-body white">
+                      <div class="container">
+                        <div class="blog-section">
+                    
+                       
+                        <div class="container blog-container">
+                        
+                            <div class="blog-posts-section">
+                                <div class="col-lg-12 col-md-10 col-xs-10 blog-post-card-container">
+                    
+                                    
+                    
+                                    <div class="blog-post-card">
+                                        <div class="blog-post-title">
+                                            
+                                            <p class="text-monospace">Edit Profile</p>
+                                           </div>
+                                           
+                                       
+                                <br>
+                                <input class="form-control" [disabled]="true"  [(ngModel)]="name"   pattern="[a-zA-Z ]*"><br><br>
+                                <input class="form-control" [disabled]="true"   [(ngModel)]="email"  pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"><br><br>
+                                <input class="form-control"  [(ngModel)]="phonenumber" pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$"><br><br><br><br>
+                            
+
+                                        
+                                        
+                                          <br>
+                                          <button class="btn btn-danger btn-block btn-lg" (click)="update()">Update</button> 
+                                          
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            
+                      
+                      
+                      
+                  </div>
+            
+                </div>
+                <!-- Card -->
+            
+              </div>
+              <!--Grid column-->
+            
+            </div>
+            <!--Grid row--><script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/js/jquery.min.js"></script><script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/js/popper.min.js"></script><script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/js/bootstrap.min.js"></script><script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.1/js/mdb.min.js"></script><script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/bundles/4.19.1/compiled-addons.min.js"></script><script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script><script type="text/javascript">{}</script><div class="hiddendiv common"></div>
+          </div>

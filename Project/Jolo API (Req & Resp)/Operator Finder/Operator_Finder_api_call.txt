@@ -1,0 +1,18 @@
+Operator Finderapi call:
+
+Request:
+https://joloapi.com/api/v1/operatorfinder.php?userid=1702091&key=265863867844185&mob=9360530521
+
+Response:
+{"status":"SUCCESS","error":"","operator_code":"AT","operator_name":"Airtel","circle_code":"TN","circle_name":"Tamil Nadu","current_type":"PREPAID","hits_left":"499"}
+
+Parameters:
+
+userid,
+key,
+mob = our number
+
+
+About:
+
+Operator finder using mobile number.

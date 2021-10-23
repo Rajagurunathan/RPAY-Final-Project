@@ -1,0 +1,16 @@
+API BALANCE api call:
+
+Request:
+https://joloapi.com/api/v1/balance.php?userid=1702091&key=265863867844185
+
+Response:
+{"status":"SUCCESS","error":"0","balance":"0.00","totalearn":"0.00","time":"November 03 2020 11:25:45 AM","duration":"0"}
+
+Parameters:
+
+userid,
+key
+
+About:
+
+Just shows our balance in Jolo.

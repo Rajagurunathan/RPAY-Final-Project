@@ -1,0 +1,19 @@
+<mat-card>
+<div class="wrapper">
+  <br><br> 
+  <div class="wrapped-div">
+    <div class="tab-header d-flex justify-content-center">
+      <div class="overflow-auto ">
+        <h2 routerLink='/user/login' routerLinkActive='active'>Sign In</h2>
+        <h2 routerLink='/user/registration' routerLinkActive='active'>Sign Up</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-10 offset-md-1">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
+</mat-card>
